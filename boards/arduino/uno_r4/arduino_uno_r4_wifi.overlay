@@ -32,6 +32,7 @@
 	aliases {
 		led0 = &led;
 		pwm-led0 = &pwm_led;
+		watchdog0 = &wdt;
 	};
 
 	arduino_header: connector {

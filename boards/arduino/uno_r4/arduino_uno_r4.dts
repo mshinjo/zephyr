@@ -101,6 +101,10 @@
 	};
 };
 
+&wdt {
+	status = "okay";
+};
+
 &hoco {
 	status = "okay";
 	clock-frequency = <48000000>;
